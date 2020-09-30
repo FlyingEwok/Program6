@@ -10,7 +10,7 @@ class convintroman:
         romanNum = ''
         i = 0
         
-        #Cycle through value list till appropriate number is found
+        #Cycle through value list till appropriate number is found for the right symbol
         while  num > 0:
             for _ in range(num // value[i]):
                 #Make romanNum variable be the value of i in the symbol list
